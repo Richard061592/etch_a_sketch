@@ -6,19 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
-    <title>Document</title>
+    <title>Etch A Sketch</title>
 </head>
 <body>
     <h1 class="main-header">Etch A Sketch</h1>
-    <div class="grid">
-        <div class="square1">
 
-        </div>
+    <input type="text" id="input-field" value="Enter Even Number">
+    <button onclick="makeRows()">Create Grid</button>
+    <div id="grid">
+
     </div>
     <div class="grid-hovered">
         <div class="square2">
-            
+
         </div>
+    <div class="clear">
+        <button onclick="reset()">Reset</button>
+    </div>
     </div>
 </body>
 </html>

@@ -4,3 +4,21 @@
     align-items: center;
     color: red;
 }
+
+#input-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
