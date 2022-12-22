@@ -1,24 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+
 .main-header {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
     color: red;
 }
 
-#input-field {
+.input {
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
 
-button {
+
+.button1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
 }
 
-#grid {
+.button2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100px;
 }
+
