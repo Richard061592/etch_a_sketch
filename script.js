@@ -1,18 +1,16 @@
 const grid = document.getElementById("grid");
 
-const evenNum = document.getElementById("input-field")
+
+
+function getInput() {
+    var promtInput = document.getElementById("myText").value;
+    //promtInput.getInput("Please Enter Even Number: ");
+    document.getElementById("demo").innerHTML = promtInput;
+    //return promtInput;
+}
 
 function makeRows(rows, cols) {
-    let rows = evenNum;
-    let cols = evenNum;
-    grid.style.setProperty('--grid-rows', rows);
-    grid.style.setProperty('--grid-cols', cols);
-    for (c = 0; c < (rows * cols); c++)
-    {
-        let cell = document.createElement('div');
-        cell.innerText = (c + 1);
-        grid.appendChild(cell).className = "grid-item";
-    };
+
 };
 
 function reset() {
